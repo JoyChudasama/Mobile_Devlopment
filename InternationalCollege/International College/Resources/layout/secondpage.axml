@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="125px"
+        android:minHeight="60px"
+        android:id="@+id/spinner1"
+        android:entries="@array/courses" />
+    <TableRow
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableRow1" >
+        <TextView
+            android:text="Course Fees"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/fees"
+            android:layout_width="180dp" 
+        android:textSize="60px" />
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/showfees"
+            android:textSize="60px" />
+    </TableRow>
+    <TableRow
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableRow2" >
+        <TextView
+            android:text="Course Hours"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/hours"
+            android:layout_width="190dp"
+            android:textSize="60px" />
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/showhours"
+            android:textSize="60px" />
+    </TableRow>
+    <TextView
+        android:text="Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:bufferType="spannable"
+        android:visibility="gone" />
+    <Button
+        android:text="Add course"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/add" />
+    <Button
+        android:text="Next Page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nexttwo" />
+    <ListView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+        android:id="@+id/listView1" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ok" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ok2" />
+
+</LinearLayout>

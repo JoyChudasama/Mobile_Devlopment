@@ -1,0 +1,48 @@
+adaptive-icon;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher.xml
+adaptive-icon;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
+background;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher.xml
+background;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
+Button;obj\Debug\90\res\layout\activity_main.xml
+Button;obj\Debug\90\res\layout\firstpage.xml
+Button;obj\Debug\90\res\layout\secondpage.xml
+Button;obj\Debug\90\res\layout\thirdpage.xml
+cache-path;C:\Users\Romilkumar Patel\source\repos\International College\International College\obj\Debug\90\lp\37\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+CheckBox;obj\Debug\90\res\layout\thirdpage.xml
+color;obj\Debug\90\res\values\colors.xml
+color;obj\Debug\90\res\values\ic_launcher_background.xml
+EditText;obj\Debug\90\res\layout\activity_main.xml
+EditText;obj\Debug\90\res\layout\firstpage.xml
+EditText;obj\Debug\90\res\layout\secondpage.xml
+external-cache-path;C:\Users\Romilkumar Patel\source\repos\International College\International College\obj\Debug\90\lp\37\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-path;C:\Users\Romilkumar Patel\source\repos\International College\International College\obj\Debug\90\lp\37\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+foreground;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher.xml
+foreground;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
+item;obj\Debug\90\res\values\strings.xml
+item;obj\Debug\90\res\values\styles.xml
+LinearLayout;obj\Debug\90\res\layout\activity_main.xml
+LinearLayout;obj\Debug\90\res\layout\firstpage.xml
+LinearLayout;obj\Debug\90\res\layout\secondpage.xml
+LinearLayout;obj\Debug\90\res\layout\thirdpage.xml
+ListView;obj\Debug\90\res\layout\secondpage.xml
+ListView;obj\Debug\90\res\layout\thirdpage.xml
+paths;C:\Users\Romilkumar Patel\source\repos\International College\International College\obj\Debug\90\lp\37\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+RadioButton;obj\Debug\90\res\layout\firstpage.xml
+RadioGroup;obj\Debug\90\res\layout\firstpage.xml
+RelativeLayout;obj\Debug\90\res\layout\activity_main.xml
+resources;obj\Debug\90\res\values\colors.xml
+resources;obj\Debug\90\res\values\ic_launcher_background.xml
+resources;obj\Debug\90\res\values\strings.xml
+resources;obj\Debug\90\res\values\styles.xml
+SeekBar;obj\Debug\90\res\layout\firstpage.xml
+Spinner;obj\Debug\90\res\layout\secondpage.xml
+string;obj\Debug\90\res\values\strings.xml
+string-array;obj\Debug\90\res\values\strings.xml
+style;obj\Debug\90\res\values\styles.xml
+TableLayout;obj\Debug\90\res\layout\firstpage.xml
+TableLayout;obj\Debug\90\res\layout\thirdpage.xml
+TableRow;obj\Debug\90\res\layout\firstpage.xml
+TableRow;obj\Debug\90\res\layout\secondpage.xml
+TableRow;obj\Debug\90\res\layout\thirdpage.xml
+TextView;obj\Debug\90\res\layout\firstpage.xml
+TextView;obj\Debug\90\res\layout\secondpage.xml
+TextView;obj\Debug\90\res\layout\thirdpage.xml

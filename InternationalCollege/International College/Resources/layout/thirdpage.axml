@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:p4="http://xamarin.com/mono/android/designer"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Name"
+        android:gravity="center"  />
+    <ListView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="165.0dp"
+        android:id="@+id/listView1" />
+    <TableLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableLayout2">
+        <TableRow
+            android:id="@+id/tableRow5">
+            <TextView
+                p4:placeholder="true"
+                android:minWidth="30px"
+                android:minHeight="30px"
+                android:id="@+id/textView1"
+                android:text="Total Fees:" />
+            <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/totalfees"
+        android:text="fees" />
+            
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow6">
+            <TextView
+                p4:placeholder="true"
+                android:minWidth="30px"
+                android:minHeight="30px"
+                android:id="@+id/textView4"
+                android:text="Total Hours: " />
+          <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/totalhours"
+        android:text="hours" />
+           
+        </TableRow>
+         </TableLayout>
+
+   
+
+    
+    <TableLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableLayout1">
+        <TableRow
+            android:id="@+id/tableRow1">
+            <CheckBox
+                p4:placeholder="true"
+                android:minWidth="30px"
+                android:minHeight="30px"
+                android:id="@+id/accommodation"
+                android:text="Accommodation(3000)" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow2">
+            <CheckBox
+                p4:placeholder="true"
+                android:minWidth="30px"
+                android:minHeight="30px"
+                android:id="@+id/transportation"
+                android:text="Transportation(1000)" />
+            </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3">
+            <CheckBox
+                p4:placeholder="true"
+                android:minWidth="30px"
+                android:minHeight="30px"
+                android:id="@+id/books"
+                android:text="Books(600)" />
+             </TableRow>
+        <TableRow
+            android:id="@+id/tableRow4">
+            <Button
+                p4:placeholder="true"
+                android:minWidth="30px"
+                android:minHeight="30px"
+                android:id="@+id/total"
+                android:text="Total" />
+            <TextView
+                p4:placeholder="true"
+                android:minWidth="30px"
+                android:minHeight="30px"
+                android:id="@+id/showtotal"/>
+             </TableRow>
+    </TableLayout>
+
+</LinearLayout>

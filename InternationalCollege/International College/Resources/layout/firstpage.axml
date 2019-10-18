@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:p4="http://xamarin.com/mono/android/designer"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/showname"
+        android:gravity="center"/>
+    <TableLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableLayout1">
+        <TableRow
+            android:id="@+id/tableRow1">
+            <TextView
+                p4:placeholder="true"
+                android:minWidth="30px"
+                android:minHeight="30px"
+                android:id="@+id/age"
+                android:text="Age" />
+            <SeekBar
+                p4:placeholder="true"
+                android:minWidth="160px"
+                android:minHeight="30px"
+                android:id="@+id/agenum"
+                android:layout_width="168.0dp"
+                android:max="70" />
+            <TextView
+                p4:placeholder="true"
+                android:minWidth="80px"
+                android:minHeight="50px"
+                android:id="@+id/showage" />
+            
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow2">
+            <TextView
+                p4:placeholder="true"
+                android:minWidth="30px"
+                android:minHeight="30px"
+                android:id="@+id/textView4"
+                android:text="Address" />
+            <EditText
+                p4:placeholder="true"
+                android:minWidth="30px"
+                android:minHeight="30px"
+                android:id="@+id/address"
+                android:inputType="text" />
+            
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3">
+            <TextView
+                p4:placeholder="true"
+                android:minWidth="30px"
+                android:minHeight="30px"
+                android:id="@+id/textView7"
+                android:text="Number" />
+            <EditText
+                p4:placeholder="true"
+                android:minWidth="30px"
+                android:minHeight="30px"
+                android:id="@+id/number"
+                android:inputType="number" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow4">
+            <TextView
+                android:minWidth="30px"
+                android:minHeight="30px"
+                android:id="@+id/textView9"
+                android:text="Status" />
+           <RadioGroup>  
+            <RadioButton
+                p4:placeholder="true"
+                android:minWidth="30px"
+                android:minHeight="30px"
+                android:id="@+id/graduated"
+                android:text="Graduated"
+                android:layout_column="1" />
+            <RadioButton
+                p4:placeholder="true"
+                android:minWidth="30px"
+                android:minHeight="30px"
+                android:id="@+id/continued"
+                android:text="Continued" />
+        </RadioGroup>
+        </TableRow>
+    </TableLayout>
+    <Button
+        android:text="Next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nextone" />     
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="30dp"
+		android:id="@+id/linearLayout1" >
+		<TextView
+			android:text="Car"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:id="@+id/textView1" />
+		<Spinner
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:id="@+id/spCars" />
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_marginTop="50dp"
+		android:layout_width="match_parent"
+		android:layout_height="30dp"
+		android:id="@+id/linearLayout2" >
+		<TextView
+			android:text="Price"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:id="@+id/textView2" />
+		<TextView
+			android:text="Medium Text"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:id="@+id/tvPrice" />
+	</LinearLayout>
+	<ImageView
+		android:src="@android:drawable/ic_menu_gallery"
+		android:layout_width="200dp"
+		android:layout_height="200dp"
+		android:layout_marginTop="80dp"
+		
+		android:id="@+id/ivCar" />
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">International_College</string>
+    <string name="action_settings">Settings</string>
+  <string-array name="courses">
+    <item>Select Course</item>
+    <item>Computer Programmer</item>
+    <item>Mechanical Engineering</item>
+    <item>Electrial Engineering</item>
+    <item>Civil Engineering</item>
+    <item>Mobile Development</item>
+    <item>Business Management</item>
+    <item>Business Administration</item>
+    <item>Construction Maintenance Electrician</item>
+    <item>Emergency Communications</item>
+    <item>General Carpenter</item>
+  </string-array>
+  <string-array name="ok"></string-array>
+</resources>

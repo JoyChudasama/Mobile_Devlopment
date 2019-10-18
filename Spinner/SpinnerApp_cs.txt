@@ -1,0 +1,37 @@
+using Android.App;
+using Android.OS;
+using Android.Support.V7.App;
+using Android.Runtime;
+using Android.Widget;
+
+namespace SpinnerApp
+{
+    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
+    public class MainActivity : AppCompatActivity
+    {
+
+        Spinner carSpinner;
+        TextView vPrice;
+        ImageView carImage;
+        double[] carprice = { 120000, 90000, 60000, 63000, 55000, 50000, 48000 };
+        protected override void OnCreate(Bundle savedInstanceState)
+        {
+            base.OnCreate(savedInstanceState);
+            SetContentView(Resource.Layout.activity_main);
+            vPrice = (TextView)FindViewById(Resource.Id.tvPrice);
+            carSpinner = (Spinner)FindViewById(Resource.Id.spCars);
+            carImage = (ImageView)FindViewById(Resource.Id.ivCar);
+            var carAdapter = ArrayAdapter.CreateFromResource(this, Resource.Array.car_array, Android.Resource.Layout.SimpleSpinnerItem);
+
+            carSpinner.Adapter = carAdapter;
+            carSpinner.ItemSelected += delegate {
+                string msg = "the selected car is " + carSpinner.SelectedItem.ToString();
+                Toast.MakeText(this, msg, ToastLength.Long).Show();
+                vPrice.Text = carprice[carSpinner.SelectedItemId].ToString();
+                string Img = "car" + carSpinner.SelectedItemId;
+                int imgId = this.Resources.GetIdentifier(Img, "mipmap", this.PackageName);
+                carImage.SetImageResource(imgId);
+            };
+        }
+    }
+}

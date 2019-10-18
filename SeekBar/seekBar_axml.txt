@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<TableLayout
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_marginTop="50dp"
+		android:layout_marginLeft="10dp"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/tableLayout1">
+		<TableRow
+			android:id="@+id/tableRow1">
+			<TextView
+				p4:placeholder="true"
+				android:text="Test 1"
+				android:minWidth="30px"
+				android:minHeight="30px"
+				xmlns:p4="http://xamarin.com/mono/android/designer"
+				android:id="@+id/textView1" />
+			<SeekBar
+				android:layout_column="1"
+				android:max="20"
+				android:minWidth="20dp"
+				android:id="@+id/sbT1" />
+			<TextView
+				p4:placeholder="true"
+				android:minWidth="30px"
+				android:minHeight="30px"
+				xmlns:p4="http://xamarin.com/mono/android/designer"
+				android:id="@+id/tvT1" />
+		</TableRow>
+		<TableRow
+			android:id="@+id/tableRow1">
+			<TextView
+				p4:placeholder="true"
+				android:text="Test 2"
+				android:minWidth="30px"
+				android:minHeight="30px"
+				xmlns:p4="http://xamarin.com/mono/android/designer"
+				android:id="@+id/textView1" />
+			<SeekBar
+				android:layout_column="1"
+				android:max="30"
+				android:minWidth="30dp"
+				android:id="@+id/sbT2" />
+			<TextView
+				p4:placeholder="true"
+				android:minWidth="30px"
+				android:minHeight="30px"
+				xmlns:p4="http://xamarin.com/mono/android/designer"
+				android:id="@+id/tvT2" />
+		</TableRow>
+		<TableRow
+			android:id="@+id/tableRow1">
+			<TextView
+				p4:placeholder="true"
+				android:text="Final"
+				android:minWidth="30px"
+				android:minHeight="30px"
+				xmlns:p4="http://xamarin.com/mono/android/designer"
+				android:id="@+id/textView1" />
+			<SeekBar
+				android:layout_column="1"
+				android:max="50"
+				android:minWidth="50dp"
+				android:id="@+id/sbF" />
+			<TextView
+				p4:placeholder="true"
+				android:minWidth="30px"
+				android:minHeight="30px"
+				xmlns:p4="http://xamarin.com/mono/android/designer"
+				android:id="@+id/tvF" />
+		</TableRow>
+		<TableRow
+			android:id="@+id/tableRow2">
+			<TextView
+				p4:placeholder="true"
+				android:minWidth="30px"
+				android:minHeight="30px"
+				xmlns:p4="http://xamarin.com/mono/android/designer"
+				android:id="@+id/textView4" />
+			<TextView
+				p4:placeholder="true"
+				android:minWidth="30px"
+				android:minHeight="30px"
+				xmlns:p4="http://xamarin.com/mono/android/designer"
+				android:id="@+id/textView5" />
+			<TextView
+				p4:placeholder="true"
+				android:minWidth="30px"
+				android:minHeight="30px"
+				xmlns:p4="http://xamarin.com/mono/android/designer"
+				android:id="@+id/textView6" />
+		</TableRow>
+		<TableRow
+			android:id="@+id/tableRow3">
+			<Button
+				android:text="Total"
+				android:layout_column="0"
+				android:id="@+id/btnTotal" />
+			<TextView
+				p4:placeholder="true"
+				android:minWidth="30px"
+				android:minHeight="30px"
+				xmlns:p4="http://xamarin.com/mono/android/designer"
+				android:id="@+id/tvResult" />
+			
+		</TableRow>
+	</TableLayout>
+</RelativeLayout>

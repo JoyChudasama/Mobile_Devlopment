@@ -1,0 +1,50 @@
+using Android.App;
+using Android.OS;
+using Android.Support.V7.App;
+using Android.Runtime;
+using Android.Widget;
+
+namespace SeekBar_example
+{
+    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
+    public class MainActivity : AppCompatActivity
+    {
+        TextView vT1, vT2, vF, vResult;
+        SeekBar sT1, sT2, sF;
+        Button bTotal;
+
+        protected override void OnCreate(Bundle savedInstanceState)
+        {
+            base.OnCreate(savedInstanceState);
+            SetContentView(Resource.Layout.activity_main);
+            vT1 = (TextView)FindViewById(Resource.Id.tvT1);
+            vT2 = (TextView)FindViewById(Resource.Id.tvT2);
+            vF = (TextView)FindViewById(Resource.Id.tvF);
+            vResult = (TextView)FindViewById(Resource.Id.tvResult);
+            sT1 = (SeekBar)FindViewById(Resource.Id.sbT1);
+            sT2 = (SeekBar)FindViewById(Resource.Id.sbT2);
+            sF = (SeekBar)FindViewById(Resource.Id.sbF);
+            bTotal = (Button)FindViewById(Resource.Id.btnTotal);
+
+            sT1.ProgressChanged += delegate
+            {
+                vT1.Text = sT1.Progress.ToString();
+            };
+            sT2.ProgressChanged += delegate
+            {
+                vT2.Text = sT2.Progress.ToString();
+            };
+            sF.ProgressChanged += delegate
+            {
+                vF.Text = sF.Progress.ToString();
+            };
+            bTotal.Click += delegate
+            {
+                int total;
+                total = sT1.Progress + sT2.Progress + sF.Progress;
+                vResult.Text = total.ToString();
+            };
+        }
+        
+    }
+   }
